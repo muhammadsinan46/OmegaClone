@@ -1,0 +1,345 @@
+body{
+    background-color: white;
+    font-family: 'Jost', sans-serif;
+ 
+}
+
+.logo{
+    width: 6rem;
+}
+
+.navbar{
+    width: 100%;
+    position: relative;
+}
+
+header{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items:center;
+    position: relative;
+
+}
+
+header .left{
+   display: flex;
+   float: right;
+}
+.left h6{
+    font-size: 1rem;
+    padding: 2rem;
+}
+header .center{
+    
+   
+    margin: auto;
+    padding-left: 5rem;
+}
+
+header .right{
+    display: flex;
+   float: left;
+
+
+}
+.right img{
+    padding: 1rem;
+}
+ul{
+   display: flex;
+   list-style: none;    
+   margin-right:20rem ;
+   margin-left: 20rem;
+   justify-content: space-around;
+    
+}
+
+li:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.banner img{
+    width: 100%;
+    object-fit: cover;
+    height: 40rem;
+    position: relative;
+   
+}
+.text button{
+    padding: 1rem;
+    background-color: white;
+    border: none;
+    border: 0.1rem solid black;
+}
+.text button:hover{
+    color: white;
+    border: none;
+    background-color: red;
+    transition: 3rem;
+}
+
+.section2 .text button:hover{
+    color: white;
+    background-color: rgb(55, 149, 225);
+}
+
+.section1{
+    margin: 10rem; 
+    padding: auto; 
+}
+
+
+.section1 img{
+    width: 35rem;
+    float: right;
+}
+.section2{
+    padding: 10rem;
+}
+.section2 video{
+    width: 35rem;
+    float: left;
+
+    
+}
+.section2 .text h1{
+    color: rgb(55, 149, 225);
+    font-size: 3rem;
+ 
+   
+   
+}
+.section2 .text{
+    margin-left: 10rem;
+    padding-left:2rem;
+    text-align: center;
+}
+.section3{
+    padding: 10rem;
+}
+
+.section3 video{
+    width: 35rem;
+    float: right;
+}
+.section3 .text{
+    padding: 6rem;
+    text-align: center;
+}
+
+.text{
+    padding-top:10rem;
+    text-align: center;
+
+   
+}
+
+.text h1{
+    color: red;
+}
+
+.textsection{
+    margin-bottom: 10rem;
+    text-align: center;
+}
+.textsection1 button{
+
+padding: 1rem;
+    background-color: white;
+    border: none;
+    border: 0.1rem solid black;
+}
+.textsection1 button:hover{
+    color: white;
+    border: none;
+    background-color: red;
+    transition: 3rem;
+}
+.textsection1{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.textsection3{
+    margin-bottom: .8rem;
+    text-align: center;
+  
+}
+.textsection3 button{
+    padding: .7rem;
+    background-color: white;
+    border: none;
+    border: 0.1rem solid black;
+
+}
+
+.textsection3 button:hover{
+    color: white;
+    border: none;
+    background-color: red;
+    transition: 3rem;
+}
+.namebar button{
+    padding: .7rem;
+    background-color: white;
+    border: none;
+    border: 0.1rem solid black;
+
+}
+.namebar button:hover{
+    color: white;
+    border: none;
+    background-color: red;
+    transition: 3rem;
+}
+
+.storesection{
+      padding-left: 10rem;
+      padding-right: 5rem;
+      margin-top: 9rem;
+      margin-bottom: 25rem;
+} 
+
+.storesection img{
+    float: right;
+    width: 40rem;
+    
+}
+
+.storesection .text{
+    text-align: center;
+    padding-top: 6rem;
+
+   
+}
+
+.displaysection{
+   
+  
+    padding: 10rem;
+}
+
+.displaysection video{
+    width: 35rem;
+    padding-top: 5rem;
+}
+
+.displaysection .img1{
+     position: absolute; 
+    width: 32rem;
+    height: 27rem;
+    padding-left: 2rem;
+    
+}
+.displaysection .img2{
+    position: relative;
+    width: 12rem;
+    height:17rem;
+    padding-top: 2rem;
+    left: 1rem;
+    z-index: -1;
+
+}
+
+ .namebar{
+   
+    text-align: justify;
+    width: 20rem;
+    margin: 0%;
+    left:1rem;
+    float: right;
+    position:relative;
+    top: 29rem;
+   
+
+    
+    
+}
+
+.changer button{
+    
+    font-size: 1.4rem;
+    float: right;
+    color: black;
+    background-color:white;
+    border: none;
+    position: relative;
+    top: -2rem;
+    left: -15rem;
+    padding: auto;
+}
+
+.changer button:hover{
+   color: white;
+   background-color: red;
+  transition: 1s;
+    
+}
+
+#strap1{
+    width: 50rem;
+}
+#strap2{
+    width:23rem;
+    height: 28.2rem;
+}
+.storycards{
+    display:flex;
+    margin: 5rem;
+    text-align: center;
+}
+
+.cards img{
+    width: 17rem;
+}
+
+.cards h1{
+    font-size: 1rem;
+}
+
+.icons{
+    width: 1rem;
+
+
+}
+
+.stories{
+    text-align: center;
+}
+.stories a{
+    color: rgb(31, 30, 30);
+}
+
+.prefooter{
+    background-color: rgb(243, 241, 238);
+    width: 100%;
+        align-items: start;
+        justify-content:space-between;
+    
+    padding-top: 1rem;
+}
+
+.prefooter .icons{
+    padding-left:2rem ;
+}
+
+.prefooter button{
+    padding: 1.1rem;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+
+    
+}
+
+.newsletter input{
+    color: black;
+    padding :1rem;
+
+    padding-right: 12rem;
+
+    border: none;
+    border: .1rem solid black;
+    }
